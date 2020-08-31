@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="3" >
+  <test name="FirstMaven_Demo_01">
+    <classes>
+      <class name="com.selenium.day1.TsetNGDemo1">
+        <methods>
+          <exclude name="testCase2"/>
+        </methods>
+      </class> <!-- com.selenium.day3.GridTest -->
+      <class name="com.selenium.day1.TsestNGDemo02">
+      </class> <!-- com.selenium.day3.GridTest -->
+    </classes>
+  </test> <!-- FirstMaven_Demo_01 -->
+</suite> <!-- Default Suite -->
